@@ -195,6 +195,6 @@ function destroyBlock(x, y, z, side) {
 			}
 		}
 		
-		Level.destroyBlock(x,y,z,false); //destroy the gold block
+		Level.destroyBlock(x,y,z,true); //destroy the gold block
 	}
 }
